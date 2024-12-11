@@ -184,6 +184,8 @@ class _CountryCodePickerModalState extends State<CountryCodePickerModal> {
                 ),
               );
             },
+            padding: EdgeInsets.only(
+                bottom: MediaQuery.of(context).viewInsets.bottom),
           ),
         ),
       ],
